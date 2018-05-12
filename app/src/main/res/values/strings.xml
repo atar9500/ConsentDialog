@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ConsentDialog</string>
+    <string name="location">Access Location</string>
+    <string name="contacts">Read Contacts</string>
+    <string name="storage">Read/Write External Storage</string>
+    <string name="camera">Access Camera</string>
+    <string name="sms">Read/Write/Send SMS</string>
+    <string name="calendar">Access Calendar</string>
+    <string name="show_consent">Show Consent</string>
+    <string name="consent_title">These permissions are needed:</string>
+    <string name="next">Next</string>
+    <string name="all_permissions_granted">All permissions are granted!</string>
+    <string name="all_permissions_denied">None of the permissions is granted</string>
+    <string name="permissions_were_granted">permissions were granted</string>
+</resources>

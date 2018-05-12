@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/am_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <CheckBox
+        android:id="@+id/am_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contacts"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <CheckBox
+        android:id="@+id/am_storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/storage"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <CheckBox
+        android:id="@+id/am_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/camera"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <CheckBox
+        android:id="@+id/am_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sms"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <CheckBox
+        android:id="@+id/am_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calendar"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/am_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_consent"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"/>
+
+</LinearLayout>
